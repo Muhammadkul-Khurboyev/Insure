@@ -1,0 +1,323 @@
+/* karla-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src:
+  url('./fonts/karla-v31-latin-regular.woff2') format('woff2'),
+  url('./fonts/karla-v31-latin-regular.woff') format('woff');
+}
+/* karla-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src:
+  url('./fonts/karla-v31-latin-700.woff2') format('woff2'),
+  url('./fonts/karla-v31-latin-700.woff') format('woff');
+}
+
+/* dm-serif-display-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  src:
+  url('./fonts/dm-serif-display-v15-latin-regular.woff2') format('woff2'),
+  url('./fonts/dm-serif-display-v15-latin-regular.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  font-weight: normal;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.unstyle-list {
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.site-header {
+  padding-top: 21px;
+  padding-bottom: 19px;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-wrapper {
+  text-decoration-line: none;
+}
+
+.nav-list {
+  align-items: center;
+  column-gap: 26px;
+}
+.item-link {
+  text-decoration-line: none;
+  color: #837D88;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.50px;
+}
+.view {
+  display: inline-block;
+  width: 150px;
+  margin-left: 7px;
+  padding: 13px 28.5px 13px;
+  border: 1.50px solid #2c2830;
+  color: #2C2830;
+  font-weight: 700;
+}
+.item-link:hover {
+  color: #2C2830;
+}
+.view:hover {
+  color: #fff;
+  background-color: #2c2830;
+}
+.sections-wrapper {
+  background-image: url("./images/group.svg");
+  background-repeat: no-repeat;
+  background-size: 697px 649px;
+  background-position: calc(50% - 830px) calc(50% - 25px);
+}
+.section-hero {
+  position: relative;
+  background-image: url("./images/background.svg");
+  background-size: 697px 649px;
+  background-position: calc(50% + 630px) calc(50% - 100px);
+  background-repeat: no-repeat;
+  background-color: #2d2641;
+  padding-top: 105px;
+  padding-bottom: 127px;
+}
+
+.hero-info-wrapper {
+  width: 540px;
+}
+.site-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #ffffff;
+  font-size: 72px;
+  font-family: DM Serif Display;
+  font-weight: 400;
+  line-height: 64px;
+}
+.site-title::before {
+  display: block;
+  margin-bottom: 63px;
+  width: 150px;
+  height: 1px;
+  background-color: #fff;
+  content: "";
+}
+.site-desc {
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+}
+.hero-link {
+  display: block;
+  width: 150px;
+  margin-left: 0;
+  background-color: transparent;
+  color: #fff;
+  border: 1.5px solid #fff;
+}
+.hero-link:hover {
+  background-color: #fff;
+  border: 1.5px solid #fff;
+  color: #2c2830;
+}
+.hero-img {
+  position: absolute;
+  left: calc(50% + 20px);
+  top: calc(50% - 185px);
+}
+.our-services {
+  padding-top: 305px;
+  padding-bottom: 158px;
+}
+.services-title {
+  margin-top: 0;
+  margin-bottom: 96px;
+  color: #2C2830;
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-style: normal;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+.services-title::before {
+  display: block;
+  margin-bottom: 63px;
+  width: 150px;
+  height: 1px;
+  background-color: #c396c6;
+  content: "";
+}
+.servis-list {
+  display: flex;
+  column-gap: 30px;
+}
+.servis-item {
+  width: 350px;
+}
+.servis-item::before {
+  display: block;
+  background-image: url("./images/enrgy.svg");
+  background-size: 86px;
+  background-repeat: no-repeat;
+  margin-bottom: 32px;
+  padding: 43px;
+  content: "";
+}
+.servis-item-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #2c2830;
+  font-family: DM Serif Display;
+  font-size: 28px;
+  line-height: normal;
+  letter-spacing: -0.389px;
+}
+.servis-item-desc {
+  margin-top: 16px;
+  margin-bottom: 0;
+  color: #837d88;
+  font-size: 16px;
+  line-height: 26px;
+}
+.pricing::before {
+  background-image: url("./images/moneyicon.svg");
+}
+.customer::before {
+  background-image: url("./images/human.svg");
+}
+.work-for-us {
+  padding-bottom: 150px;
+}
+.article-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 310px;
+  padding: 69px 80px 69px 81px;
+  background-color: #2d2641;
+  background-image: url("./images/background.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 500px) calc(50% + 20px);
+}
+.work-for-us-title-wrapper {
+  width: 475px;
+}
+.work-for-us-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-family: DM Serif Display;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.778px;
+}
+.work-for-us-link {
+  text-decoration-line: none;
+  width: 164px;
+  border: 1.5px solid #fff;
+  padding: 13px 24.5px 12px;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+.work-for-us-link:hover {
+  border: 1.5px solid #fff;
+  background-color: #fff;
+  color: #2c2830;
+}
+.site-footer {
+  background-image: url("./images/footer.svg");
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #fafafa;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 33px;
+}
+.mini-img-wrapper {
+  width: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mini-footer-img {
+  text-decoration-line: none;
+}
+.footer-list-wrapper {
+  display: flex;
+  column-gap: 30px;
+}
+.footer-list-title {
+  display: block;
+  margin-top: 48px;
+  margin-bottom: 36px;
+  color: #837d88;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+.footer-list {
+  width: 255px;
+  display: block;
+}
+.footer-item-link {
+  text-decoration-line: none;
+  color: #2d2641;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+.footer-item-link:hover {
+  text-decoration-line: underline;
+}
+.footer-item {
+  margin-bottom: 16px;
+}
+.company:nth-child(4) {
+  margin-bottom: 0;
+}
+.contact:nth-child(3) {
+  margin-bottom: 0;
+}
